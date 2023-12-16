@@ -1,5 +1,7 @@
 # Configurando Um volume do Minio no Kubernetes com Datashim 
 
+![](img/banner.png)
+
 ## Como nasceu
 Bom tive a necessidade de criar um volume em um pod, um pouco incomum, esse volume tinha que ser montado em um bucket no minio. 
 
