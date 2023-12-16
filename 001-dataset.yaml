@@ -1,0 +1,12 @@
+---
+apiVersion: com.ie.ibm.hpsys/v1alpha1
+kind: Dataset
+metadata:
+  name: guelo-dataset
+spec:
+  local:
+    type: "COS"
+    accessKeyID: "SEU_KEYID" # Gerada no minio 
+    secretAccessKey: "SUA_SECRECT" # Gerado no minio 
+    endpoint: "https://minio" # Sua url no minio
+    bucket: "minio-bucket"  # Nome do bucket
